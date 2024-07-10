@@ -128,6 +128,11 @@ robot --listener qase.robotframework.Listener home.robot
 
 Observação: Substitua o "test.robot", pelo nome do arquivo de teste que você irá executar.
 
+Resultado da execução de teste automatizada no QASE em evidência:
+
+![image](https://github.com/railenesantana/qase-robot/assets/141088075/977ba8ec-5f90-43cc-9e15-b7b6464160a7)
+
+
 # Observações Finais
 
 No arquivo "qase.config.json", certifique-se de substituir YOUR_API_TOKEN e YOUR_PROJECT_CODE pelos valores correspondentes do seu projeto e token no Qase. 
