@@ -40,27 +40,27 @@ robot --version
 # 4. Instalar o Plugin Qase Robot Framework
 
 Instale o plugin Qase para o Robot Framework:
-# Com o Git bash aberto, insira o código:
+# Insira o código:
 ]
 pip install qase-robotframework
 
 # 5. Verificar Detalhes da Instalação do Plugin Qase
 Verifique os detalhes da instalação para confirmar que o plugin Qase foi instalado corretamente:
 
-# Com o Git bash aberto, insira o código:
+# Insira o código:
 python -m pip show qase-robotframework
 
 # 6. Instalar Bibliotecas Adicionais (Exemplo com AppiumLibrary)
 
 Se você utilizar a Appium Library nos seus testes, instale-a usando o pip:
 
-# Com o Git bash aberto, insira o código:
+# Insira o código:
 pip install robotframework-appiumlibrary
 
 # 7. Verificar a Instalação das Bibliotecas
 Verifique se as bibliotecas necessárias estão instaladas corretamente:
 
-# Com o Git bash aberto, insira o código:
+# Insira o código:
 pip list
 
 # 8. Criar e Configurar o Arquivo qase.config.json (no seu editor de código preferido, estou usando o VSCODE
@@ -81,14 +81,21 @@ Copiar código
   },
   "environment": "local"
 }
-Substitua YOUR_PROJECT_CODE pelo código do seu projeto no Qase e YOUR_API_TOKEN pelo seu token de API do Qase.
+
+Observação: Substitua YOUR_PROJECT_CODE pelo código do seu projeto no Qase e YOUR_API_TOKEN pelo seu token de API do Qase.
 
 Observação:
+Este é um screenshot do Qase, gere o token de API no menu lateral da própria ferramenta:
+
 ![image](https://github.com/railenesantana/qase-robot/assets/141088075/45311fda-4f5b-4081-a622-8ddd0a25fc72)
 
+Este é um screenshot do Qase, onde é exibido o código com o seu projeto criado:
 
-9. Criar o Arquivo de Teste test.robot
-Crie um arquivo de teste, neste caso o nome do meu caso de teste de exemplo é: home.robot com teste básico utilizando o Robot Framework:
+![image](https://github.com/railenesantana/qase-robot/assets/141088075/589595f2-1c14-4bb4-89cb-09cd0272763a)
+
+
+9. Criar o Arquivo de Teste 
+Crie um arquivo de teste, para entendimento: neste caso, o nome do meu caso de teste de exemplo é: home.robot com um caso de teste básico utilizando o Robot Framework:
 
 *** Settings ***
 
@@ -117,11 +124,17 @@ Deve abrir a tela principal
 # 10. Executar Testes com Qase Reporter
 
 Para executar os testes e enviar os resultados para o Qase, utilize o seguinte comando no prompt de comando:
-robot --listener qase.robotframework.Listener test.robot
+robot --listener qase.robotframework.Listener home.robot
 
 Observação: Substitua o "test.robot", pelo nome do arquivo de teste que você irá executar.
 
 # Observações Finais
 
-No arquivo "qaseconfig.json", certifique-se de substituir YOUR_API_TOKEN e YOUR_PROJECT_CODE pelos valores correspondentes do seu projeto e token no Qase. 
+No arquivo "qase.config.json", certifique-se de substituir YOUR_API_TOKEN e YOUR_PROJECT_CODE pelos valores correspondentes do seu projeto e token no Qase. 
 Esses passos garantem que seu ambiente esteja configurado corretamente para integrar e executar testes utilizando o Qase com o Robot Framework de forma eficiente e organizada no Windows.
+
+Link importantes:
+
+Documentação oficial de configuração do QASE com o Robot: https://github.com/qase-tms/qase-robotframework
+Qase plataforma de gestão de testes para cadastrar-se: https://qase.io/
+
