@@ -1,0 +1,25 @@
+{
+    "name": "@types/mv",
+    "version": "2.1.4",
+    "description": "TypeScript definitions for mv",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mv",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Miloslav Nenadál",
+            "githubUsername": "nenadalm",
+            "url": "https://github.com/nenadalm"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/mv"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "6636cef1ad239e93f7b621c69bd73bf22baa0915fa286a7a84d95493ceb1aa4e",
+    "typeScriptVersion": "4.5"
+}

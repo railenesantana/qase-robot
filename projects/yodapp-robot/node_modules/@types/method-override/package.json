@@ -1,0 +1,27 @@
+{
+    "name": "@types/method-override",
+    "version": "0.0.35",
+    "description": "TypeScript definitions for method-override",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/method-override",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Santi Albo",
+            "githubUsername": "santialbo",
+            "url": "https://github.com/santialbo"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/method-override"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/express": "*"
+    },
+    "typesPublisherContentHash": "75790a0410e370b21a668c43d534ddd64011e51143a0a47936b361cc1d52ce3a",
+    "typeScriptVersion": "4.5"
+}

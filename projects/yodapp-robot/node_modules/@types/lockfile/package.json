@@ -1,0 +1,30 @@
+{
+    "name": "@types/lockfile",
+    "version": "1.0.4",
+    "description": "TypeScript definitions for lockfile",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lockfile",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Bart van der Schoor",
+            "githubUsername": "Bartvds",
+            "url": "https://github.com/Bartvds"
+        },
+        {
+            "name": "BendingBender",
+            "githubUsername": "BendingBender",
+            "url": "https://github.com/BendingBender"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/lockfile"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "8cf7b9f684a086b73d794a38490523c80b8690369941b59773766cc500f9d4bb",
+    "typeScriptVersion": "4.5"
+}

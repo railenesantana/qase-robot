@@ -1,0 +1,27 @@
+{
+    "name": "@types/jsftp",
+    "version": "2.1.5",
+    "description": "TypeScript definitions for jsftp",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsftp",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Konrad Księski",
+            "githubUsername": "xyleen",
+            "url": "https://github.com/xyleen"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/jsftp"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "0e5b0c5c6abe35986064c98e7857a36b91e530a403598f1bb0d1ece6de7535ec",
+    "typeScriptVersion": "4.5"
+}

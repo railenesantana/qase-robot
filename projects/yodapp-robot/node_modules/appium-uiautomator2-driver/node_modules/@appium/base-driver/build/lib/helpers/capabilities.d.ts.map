@@ -1,0 +1,1 @@
+{"version":3,"file":"capabilities.d.ts","sourceRoot":"","sources":["../../../lib/helpers/capabilities.js"],"names":[],"mappings":"0BA8Ea,OAAO,eAAe,EAAE,WAAW;2BACnC,OAAO,eAAe,EAAE,YAAY;2BACpC,OAAO,eAAe,EAAE,YAAY;uCACpC,OAAO,eAAe,EAAE,wBAAwB;0EAKhD,OAAO,eAAe,EAAE,YAAY,CAAC,CAAC,CAAC;AAlFpD,8CAoBC;AAED;;;;;;;GAOG;AACH,gFALW,GAAG,iCAEH,YAAY,gDA0CtB"}

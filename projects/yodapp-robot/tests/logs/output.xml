@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.2 on win32)" generated="20240705 15:54:48.166" rpa="false" schemaversion="3">
+<suite id="s1" name="Home" source="C:\qa\projects\yodapp-robot\tests\home.robot">
+<test id="s1-t1" name="Deve abrir a tela principal" line="8">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://localhost:4723</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=Android Emulator</arg>
+<arg>automationName=UIAutomator2</arg>
+<arg>app=${EXECDIR}/app/yodapp-beta.apk</arg>
+<arg>udid=emulator-5554</arg>
+<arg>autoGrantPermissions=true</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20240705 15:55:02.554" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20240705 15:55:02.552" endtime="20240705 15:55:02.802"/>
+</kw>
+<msg timestamp="20240705 15:55:02.808" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20240705 15:55:02.810" level="FAIL">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\qa\projects\yodapp-robot\tests/app/yodapp-beta.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\qa\projects\yodapp-robot\tests/app/yodapp-beta.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\qa\projects\yodapp-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\qa\projects\yodapp-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)</msg>
+<status status="FAIL" starttime="20240705 15:54:58.662" endtime="20240705 15:55:02.814"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>Yodapp</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="NOT RUN" starttime="20240705 15:55:02.815" endtime="20240705 15:55:02.816"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>Mobile Training</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="NOT RUN" starttime="20240705 15:55:02.817" endtime="20240705 15:55:02.817"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>by Papito</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="NOT RUN" starttime="20240705 15:55:02.818" endtime="20240705 15:55:02.819"/>
+</kw>
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="NOT RUN" starttime="20240705 15:55:02.820" endtime="20240705 15:55:02.820"/>
+</kw>
+<status status="FAIL" starttime="20240705 15:54:58.562" endtime="20240705 15:55:02.824">WebDriverException: Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\qa\projects\yodapp-robot\tests/app/yodapp-beta.apk' does not exist or is not accessible
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: The application at 'C:\qa\projects\yodapp-robot\tests/app/yodapp-beta.apk' does not exist or is not accessible
+    at getResponseForW3CError (C:\qa\projects\yodapp-robot\node_modules\@appium\base-driver\lib\protocol\errors.js:1145:9)
+    at asyncHandler (C:\qa\projects\yodapp-robot\node_modules\@appium\base-driver\lib\protocol\protocol.js:485:57)</status>
+</test>
+<status status="FAIL" starttime="20240705 15:54:57.041" endtime="20240705 15:55:02.842"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Home">Home</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20240705 15:55:02.808" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>

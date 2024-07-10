@@ -1,0 +1,27 @@
+{
+    "name": "@types/teen_process",
+    "version": "2.0.4",
+    "description": "TypeScript definitions for teen_process",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/teen_process",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Tiger Oakes",
+            "githubUsername": "NotWoods",
+            "url": "https://github.com/NotWoods"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/teen_process"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "87a88ef21cd847180b5634d54d71ebb410d3a605cf896471b5bdbc1a22891385",
+    "typeScriptVersion": "4.5"
+}

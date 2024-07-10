@@ -1,0 +1,32 @@
+{
+    "name": "@types/serve-favicon",
+    "version": "2.5.7",
+    "description": "TypeScript definitions for serve-favicon",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/serve-favicon",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Uros Smolnik",
+            "githubUsername": "urossmolnik",
+            "url": "https://github.com/urossmolnik"
+        },
+        {
+            "name": "Piotr Błażejewicz",
+            "githubUsername": "peterblazejewicz",
+            "url": "https://github.com/peterblazejewicz"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/serve-favicon"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/express": "*"
+    },
+    "typesPublisherContentHash": "8917b8c8ab9637907baa96b326eab550ef22db6c9da56a44034ae47ad002e510",
+    "typeScriptVersion": "4.5"
+}

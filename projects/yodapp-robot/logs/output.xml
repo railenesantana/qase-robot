@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.2 on win32)" generated="20240710 11:13:17.094" rpa="false" schemaversion="3">
+<suite id="s1" name="Home" source="C:\qa\projects\yodapp-robot\tests\home.robot">
+<test id="s1-t1" name="Deve abrir a tela principal" line="8">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://localhost:4723</arg>
+<arg>platformName=Android</arg>
+<arg>deviceName=Android Emulator</arg>
+<arg>automationName=UIAutomator2</arg>
+<arg>app=C:\\qa\\projects\\yodapp-robot\\app\\yodapp-beta.apk</arg>
+<arg>udid=emulator-5554</arg>
+<arg>autoGrantPermissions=true</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="PASS" starttime="20240710 11:13:18.252" endtime="20240710 11:13:52.866"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>Yodapp</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20240710 11:13:52.866" endtime="20240710 11:13:59.656"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>Mobile Training</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20240710 11:13:59.657" endtime="20240710 11:13:59.749"/>
+</kw>
+<kw name="Wait Until Page Contains" library="AppiumLibrary">
+<arg>by Papito</arg>
+<arg>10</arg>
+<doc>Waits until `text` appears on current page.</doc>
+<status status="PASS" starttime="20240710 11:13:59.749" endtime="20240710 11:13:59.806"/>
+</kw>
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20240710 11:13:59.806" endtime="20240710 11:14:00.940"/>
+</kw>
+<status status="PASS" starttime="20240710 11:13:18.251" endtime="20240710 11:14:00.940"/>
+</test>
+<status status="PASS" starttime="20240710 11:13:17.097" endtime="20240710 11:14:00.941"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Home">Home</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

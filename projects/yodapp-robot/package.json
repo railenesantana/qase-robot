@@ -1,0 +1,17 @@
+{
+  "name": "yodapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Railene Santana\u001b[A\u001b[A\u001b[A\u001b[A\u001b[AProjeto de Testes Automatizados para mobile com appium",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.0.1"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^3.7.0"
+  }
+}

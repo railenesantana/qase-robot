@@ -1,0 +1,25 @@
+{
+    "name": "@types/find-root",
+    "version": "1.1.4",
+    "description": "TypeScript definitions for find-root",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/find-root",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Arturas Molcanovas",
+            "githubUsername": "Alorel",
+            "url": "https://github.com/Alorel"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/find-root"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "e94029d2ac8c89cd51b2c6795dd0cf52e28fde7e376d304e1f9f4dacdbd10c1c",
+    "typeScriptVersion": "4.5"
+}
