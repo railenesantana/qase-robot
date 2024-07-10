@@ -18,7 +18,7 @@ Criação de Testes: Desenvolva um teste de exemplo usando o Robot Framework.
 1. Criar e Ativar Ambiente Virtual
 Abra o prompt de comando e execute os seguintes comandos para criar e ativar um ambiente virtual Python:
 
-# Com o Git bash aberto, insira o código:
+# Com o Prompt de Comando aberto, insira o código:
 
 primeiro -> python -m venv myenv
 segundo -> myenv\Scripts\activate
@@ -26,7 +26,7 @@ segundo -> myenv\Scripts\activate
 # 2. Instalar Robot Framework
 Instale o Robot Framework usando o pip:
 
-# Com o Git bash aberto, insira o código:
+# Com o Prompt de comando aberto, insira o código:
 
 pip install robotframework
 
