@@ -33,7 +33,7 @@ pip install robotframework
 # 3. Verificar Versão do Robot Framework
 Verifique se o Robot Framework foi instalado corretamente:
 
-# Insira o código:
+# Insira o comando:
 
 robot --version
 
