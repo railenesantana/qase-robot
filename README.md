@@ -18,7 +18,7 @@ Criação de Testes: Desenvolva um teste de exemplo usando o Robot Framework.
 1. Criar e Ativar Ambiente Virtual
 Abra o prompt de comando e execute os seguintes comandos para criar e ativar um ambiente virtual Python:
 
-# Com o Prompt de Comando aberto, insira o código:
+# Abra o Prompt de Comando e insira o comando:
 
 primeiro -> python -m venv myenv
 segundo -> myenv\Scripts\activate
@@ -26,14 +26,14 @@ segundo -> myenv\Scripts\activate
 # 2. Instalar Robot Framework
 Instale o Robot Framework usando o pip:
 
-# Com o Prompt de comando aberto, insira o código:
+# Insira o código:
 
 pip install robotframework
 
 # 3. Verificar Versão do Robot Framework
 Verifique se o Robot Framework foi instalado corretamente:
 
-# Com o Git bash aberto, insira o código:
+# Insira o código:
 
 robot --version
 
@@ -47,20 +47,20 @@ pip install qase-robotframework
 # 5. Verificar Detalhes da Instalação do Plugin Qase
 Verifique os detalhes da instalação para confirmar que o plugin Qase foi instalado corretamente:
 
-# Insira o código:
+# Insira o comando:
 python -m pip show qase-robotframework
 
 # 6. Instalar Bibliotecas Adicionais (Exemplo com AppiumLibrary)
 
 Se você utilizar a Appium Library nos seus testes, instale-a usando o pip:
 
-# Insira o código:
+# Insira o comando:
 pip install robotframework-appiumlibrary
 
 # 7. Verificar a Instalação das Bibliotecas
 Verifique se as bibliotecas necessárias estão instaladas corretamente:
 
-# Insira o código:
+# Insira o comando:
 pip list
 
 # 8. Criar e Configurar o Arquivo qase.config.json (no seu editor de código preferido, estou usando o VSCODE
