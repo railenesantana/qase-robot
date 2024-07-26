@@ -138,10 +138,9 @@ python
 from robot.api.deco import keyword
 from robot.libraries.BuiltIn import BuiltIn 
 import qaseio 
-
 def get_qase_client():
-    # Substitua o API key pelo seu token do Qase
-    return qaseio.QaseClient(api_key='YOUR_API_TOKEN')
+    # return qaseio.QaseClient(api_key='f1c9422533cad1ea6edcf37df852845e6d70eb81bbafbd31c121b86c291b71e4')
+    return qaseio.QaseClient(api_key='31cb53f1c98070f91920b79580ee7e865fe4b792d4a42b9379ae64928df4b689')
 
 @keyword
 def report_test_results():
