@@ -44,6 +44,9 @@ Instale o plugin Qase para o Robot Framework:
 ]
 pip install qase-robotframework
 
+
+
+
 # 5. Verificar Detalhes da Instalação do Plugin Qase
 Verifique os detalhes da instalação para confirmar que o plugin Qase foi instalado corretamente:
 
@@ -120,26 +123,48 @@ Deve abrir a tela principal
     Wait Until Page Contains    by Papito    10
 
     Close Application
-    
-# 10. Executar Testes com Qase Reporter
 
+# 10. Instalar o Cliente qaseio
+Instale o cliente qaseio que será utilizado pelo qase_settings.py:
+
+Insira o comando:
+pip install qaseio
+
+11. Criar o Arquivo qase_settings.py
+Crie um arquivo chamado qase_settings.py no diretório do seu projeto com o seguinte conteúdo:
+
+python
+
+from robot.api.deco import keyword
+from robot.libraries.BuiltIn import BuiltIn 
+import qaseio 
+
+def get_qase_client():
+    # Substitua o API key pelo seu token do Qase
+    return qaseio.QaseClient(api_key='YOUR_API_TOKEN')
+
+@keyword
+def report_test_results():
+    qase = get_qase_client()
+    # Implemente a lógica para enviar os resultados dos testes para o Qase
+Certifique-se de substituir 'YOUR_API_TOKEN' pelo seu token do Qase.
+
+# 12. Executar Testes com Qase Reporter
 Para executar os testes e enviar os resultados para o Qase, utilize o seguinte comando no prompt de comando:
-robot --listener qase.robotframework.Listener home.robot
 
-Observação: Substitua o "test.robot", pelo nome do arquivo de teste que você irá executar.
+Insira o comando:
+robot --listener qase.robotframework.Listener --variable qase_settings.py home.robot
+
+Observação: Substitua o home.robot pelo nome do arquivo de teste que você irá executar.
 
 Resultado da execução de teste automatizada no QASE em evidência:
-
 ![image](https://github.com/railenesantana/qase-robot/assets/141088075/977ba8ec-5f90-43cc-9e15-b7b6464160a7)
 
-
 # Observações Finais
-
-No arquivo "qase.config.json", certifique-se de substituir YOUR_API_TOKEN e YOUR_PROJECT_CODE pelos valores correspondentes do seu projeto e token no Qase. 
+No arquivo qase.config.json, certifique-se de substituir YOUR_API_TOKEN e YOUR_PROJECT_CODE pelos valores correspondentes do seu projeto e token no Qase.
 Esses passos garantem que seu ambiente esteja configurado corretamente para integrar e executar testes utilizando o Qase com o Robot Framework de forma eficiente e organizada no Windows.
 
-Link importantes:
+# Link importantes:
 
 Documentação oficial de configuração do QASE com o Robot: https://github.com/qase-tms/qase-robotframework
 Qase plataforma de gestão de testes para cadastrar-se: https://qase.io/
-
